@@ -25,10 +25,11 @@ https://github.com/librosa/librosa
 
 **Installation**
 
-1. Create conda environment
+1. Create conda environment for librosa
 2. Follow steps from librosa.org installation process (linux command in project env: conda install -c conda-forge librosa)
-3. Install MSAF with github or follow instruction from msaf website.
-4. 
+3. Create conda environment for msaf
+4. Install msaf with github or follow instruction from msaf website.
+5. 
 
 **Usage Instructions**
 
