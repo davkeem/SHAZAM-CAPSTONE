@@ -57,15 +57,7 @@ def extract_audio_features(file_path):
     harmonic = librosa.effects.harmonic(y)
     percussive = librosa.effects.percussive(y)
     
-    # RMS Energy
-    rms = librosa.feature.rms(y=y)
-    features['rms_mean'] = np.mean(rms)
-    features['rms_std'] = np.std(rms)
 
-    # Zero Crossing Rate
-    zcr = librosa.feature.zero_crossing_rate(y)
-    features['zcr_mean'] = np.mean(zcr)
-    features['zcr_std'] = np.std(zcr)
 
     return features
 
