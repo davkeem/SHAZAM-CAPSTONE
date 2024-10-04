@@ -23,6 +23,15 @@ https://librosa.org/doc/latest/index.html#
 
 https://github.com/librosa/librosa
 
+**Installation Instructions**
+
+MSAF:
+
+1. create conda env -> conda create -n msaf_env python=3.7 scipy=1.4.1 numpy=1.17.3
+2. conda install -c conda-forge cvxopt
+3. pip install msaf
+
+
 **References**
 
 Kaneshiro, Blair, et al. “Characterizing listener engagement with popular songs using large-scale music discovery data.” Frontiers in Psychology, vol. 8, 23 Mar. 2017, https://doi.org/10.3389/fpsyg.2017.00416.
