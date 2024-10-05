@@ -27,9 +27,13 @@ https://github.com/librosa/librosa
 
 MSAF:
 
-1. create conda env -> conda create -n msaf_env python=3.7 scipy=1.4.1 numpy=1.17.3
-2. conda install -c conda-forge cvxopt
-3. pip install msaf
+1. create conda env -> conda create -n msaf_env python=3.7
+2. download and git clone https://github.com/urinieto/msaf.git
+3. open requirements.txt and change pandas version to 1.1.5
+4. conda install numpy scipy
+5. conda install scikit-learn
+6. conda install -c conda-forge cvxopt
+7. pip install .
 
 
 **References**
