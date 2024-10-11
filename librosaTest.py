@@ -1,12 +1,4 @@
-import librosa
-import numpy as np
 
-# Function to extract features from a .wav file
-def extract_audio_features(file_path):
-    # Load the audio file
-    y, sr = librosa.load(file_path, sr=None)  # sr=None keeps the original sample rate
-
-    # 1. Spectral Features
     features = {}
 
     # MFCCs
@@ -57,15 +49,3 @@ def extract_audio_features(file_path):
     harmonic = librosa.effects.harmonic(y)
     percussive = librosa.effects.percussive(y)
     
-
-
-    return features
-
-# File Input
-file_path = r'\users\josep\Downloads\Wav\21_679.wav'
-#Change this to wherever your file is located to load the file
-audio_features = extract_audio_features(file_path)
-
-# Print extracted features
-for feature, value in audio_features.items():
-    print(f"{feature}: {value}")
