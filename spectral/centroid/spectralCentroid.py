@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-# List of 21 audio file paths (update these paths with the correct locations)
+# List of 20 paths
 audio_files = [
     r'\Users\jrgroth\Downloads\Wav\01_uptown_funk.wav',
     r'\Users\jrgroth\Downloads\Wav\02_thinking_out_loud.wav',
@@ -28,7 +28,6 @@ audio_files = [
     r'\Users\jrgroth\Downloads\Wav\20_679.wav'
 ]
 
-# Create a directory to save the output PNG files
 output_dir = r'\users\jrgroth\Downloads\Wav\Spectral_Centroid_Plots'
 os.makedirs(output_dir, exist_ok=True)
 
