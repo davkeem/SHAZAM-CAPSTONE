@@ -1,0 +1,72 @@
+Starting program...
+Loading CSV data with padding/truncating...
+Loading file: 01_uptown_funk_chroma.csv
+Truncated 01_uptown_funk_chroma.csv to shape (500, 12)
+Loading file: 02_thinking_out_loud_chroma.csv
+Truncated 02_thinking_out_loud_chroma.csv to shape (500, 12)
+Loading file: 03_see_you_again_chroma.csv
+Truncated 03_see_you_again_chroma.csv to shape (500, 12)
+Loading file: 04_trap_queen_chroma.csv
+Truncated 04_trap_queen_chroma.csv to shape (500, 12)
+Loading file: 05_sugar_chroma.csv
+Truncated 05_sugar_chroma.csv to shape (500, 12)
+Loading file: 06_shut_up_and_dance_chroma.csv
+Truncated 06_shut_up_and_dance_chroma.csv to shape (500, 12)
+Loading file: 07_blank_space_chroma.csv
+Truncated 07_blank_space_chroma.csv to shape (500, 12)
+Loading file: 08_watch_me_chroma.csv
+Truncated 08_watch_me_chroma.csv to shape (500, 12)
+Loading file: 09_earned_it_chroma.csv
+Truncated 09_earned_it_chroma.csv to shape (500, 12)
+Loading file: 10_the_hills_chroma.csv
+Truncated 10_the_hills_chroma.csv to shape (500, 12)
+Loading file: 11_cheerleader_chroma.csv
+Truncated 11_cheerleader_chroma.csv to shape (500, 12)
+Loading file: 12_cant_feel_my_face_chroma.csv
+Truncated 12_cant_feel_my_face_chroma.csv to shape (500, 12)
+Loading file: 13_love_me_like_you_do_chroma.csv
+Truncated 13_love_me_like_you_do_chroma.csv to shape (500, 12)
+Loading file: 14_take_me_to_church_chroma.csv
+Truncated 14_take_me_to_church_chroma.csv to shape (500, 12)
+Loading file: 16_lean_on_chroma.csv
+Truncated 16_lean_on_chroma.csv to shape (500, 12)
+Loading file: 17_want_to_want_me_chroma.csv
+Truncated 17_want_to_want_me_chroma.csv to shape (500, 12)
+Loading file: 18_shake_it_off_chroma.csv
+Truncated 18_shake_it_off_chroma.csv to shape (500, 12)
+Loading file: 19_where_are_u_now_chroma.csv
+Truncated 19_where_are_u_now_chroma.csv to shape (500, 12)
+Loading file: 20_fight_song_chroma.csv
+Truncated 20_fight_song_chroma.csv to shape (500, 12)
+Loading file: 21_679_chroma.csv
+Truncated 21_679_chroma.csv to shape (500, 12)
+CSV data loading complete.
+Preprocessing data...
+Data preprocessing complete.
+Adjusting data dimensions for CNN input...
+Generating random labels for testing...
+Creating CNN model...
+CNN model created.
+Compiling model...
+Model compilation complete.
+Starting model training...
+Epoch 1/20
+C:\Users\ulalenepi\.conda\envs\BeatTrackEnv\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2/2 ━━━━━━━━━━━━━━━━━━━━ 1s 219ms/step - accuracy: 0.4167 - loss: 0.7123 - val_accuracy: 0.2500 - val_loss: 1.0968
+Epoch 2/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 54ms/step - accuracy: 0.5833 - loss: 0.5960 - val_accuracy: 1.0000 - val_loss: 0.5821
+Epoch 3/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 48ms/step - accuracy: 0.8333 - loss: 0.5340 - val_accuracy: 0.5000 - val_loss: 0.6895
+Epoch 4/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 49ms/step - accuracy: 1.0000 - loss: 0.3565 - val_accuracy: 0.5000 - val_loss: 0.7860
+Epoch 5/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 56ms/step - accuracy: 1.0000 - loss: 0.2503 - val_accuracy: 0.5000 - val_loss: 0.8315
+Epoch 6/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 47ms/step - accuracy: 1.0000 - loss: 0.1927 - val_accuracy: 0.7500 - val_loss: 0.7720
+Epoch 7/20
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 47ms/step - accuracy: 1.0000 - loss: 0.1117 - val_accuracy: 0.5000 - val_loss: 1.1148
+Model training complete.
+Model saved at: C:\Users\ulalenepi\OneDrive - University of Alaska\Documents\GitHub\SHAZAM-CAPSTONE\librosa_dataset\chroma\Chroma_Data\my_model.keras
+
+Click to add a cell.
