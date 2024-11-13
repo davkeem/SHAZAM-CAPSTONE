@@ -36,6 +36,7 @@ for i, file in enumerate(audio_paths):
     mfccs_avg = mfccs_trimmed.reshape(13, n_segments, frames_per_segment).mean(axis=2)
 
     # Save the averaged MFCCs to a CSV file
-    output_filename = os.path.join(process_folder, f"processed_{audio_files_sorted[i]}_mfcc")
+    output_filename = os.path.join(process_folder, f"{os.path.splitext(audio_files_sorted[i])[0]}_processed_mfcc.csv")
     df = pd.DataFrame(mfccs_avg.T)  # Transpose to (n_segments, 13) before saving
     df.to_csv(output_filename, index=False, header=False)
+    
